@@ -33,7 +33,7 @@ public void myFractal(int x, int y, int siz)
 {
   fill(mouseX/2, mouseY/2, 250);
   triangle(x-siz/2, y+siz/2, x+siz/2, y+siz/2, x, y-siz/2);
-  if (siz >0.1)
+  if (siz >2)
   {
     myFractal(x-siz/2, y, siz/2);
     myFractal(x+siz/2, y, siz/2);
