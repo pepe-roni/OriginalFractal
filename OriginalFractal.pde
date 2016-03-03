@@ -27,7 +27,7 @@ void draw()
     increase+=10;
   }
   
-  println(increase);
+  //println(increase);
 }
 public void myFractal(int x, int y, int siz)
 {
